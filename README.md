@@ -10,7 +10,6 @@ pip3 install kDict
 ```
 
 # Custom Dictionary Class
-
 Convert Dictionary to Object style Dictionary
 ## Contents
 1. Create tree type items 
