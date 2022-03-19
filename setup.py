@@ -30,7 +30,7 @@ def lib_ver():
             return ver_a[1]
     return 1.0
 
-pkg_name='kDict'
+pkg_name='gDict'
 pkg_desc='Extended Dictionary'
 pkg_git="https://github.com/kagepark/kDict"
 long_description=''
