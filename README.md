@@ -9,8 +9,6 @@ seperate to kDict from kmisc
 pip3 install kDict
 ```
 
-# Import functions
-
 # Custom Dictionary Class
 
 Convert Dictionary to Object style Dictionary
