@@ -6,7 +6,7 @@ seperate to kDict from kmisc
 
 # Install
 ```javascript
-pip3 install kDict
+pip3 install kdic
 ```
 
 # Custom Dictionary Class
