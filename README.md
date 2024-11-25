@@ -141,11 +141,13 @@ Sample Dictionary:
 ```javascript
 >>> import kDict
 >>> kDict.kDict._dfile_='<dict file name>'
+>>> root=kDict.kDict()
 >>> root.Save()
 ```
   - Load Data (always use root if not then load at key)
 ```javascript
 >>> import kDict
 >>> kDict.kDict._dfile_='<dict file name>'
+>>> root=kDict.kDict()
 >>> root.Load()
 ```
