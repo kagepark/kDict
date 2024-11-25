@@ -1,6 +1,6 @@
 [ -d build ] && rm -fr build
 [ -d dist ] && rm -fr dist
-[ -d kdict.egg-info ] && rm -fr kdict.egg-info
+[ -d kdic.egg-info ] && rm -fr kdic.egg-info
 python3 setup.py sdist bdist_wheel
 echo "Test"
 sleep 1
