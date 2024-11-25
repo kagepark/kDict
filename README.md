@@ -35,12 +35,12 @@ Convert Dictionary to Object style Dictionary
 
 
 ```javascript
-from kmisc import kDict
+import kDict
 root=kDict.kDict()
 ```
 
 ```javascript
-from kmisc import kDict
+import kDict
 >>> test={
       'a':123,
       'b':{
@@ -139,13 +139,13 @@ Sample Dictionary:
 ```
   - Save Data (always use root if not then save partial data)
 ```javascript
->>> from kmisc import kDict
+>>> import kDict
 >>> kDict.kDict._dfile_='<dict file name>'
 >>> root.Save()
 ```
   - Load Data (always use root if not then load at key)
 ```javascript
->>> from kmisc import kDict
+>>> import kDict
 >>> kDict.kDict._dfile_='<dict file name>'
 >>> root.Load()
 ```
